@@ -20,5 +20,5 @@ Listen on port 8080, send requests under with steps under a day to server1 and
 send requests with steps less than a week to server2.
 
 ```bash
-export BIND_ADDRESS=:8080 URLS=http://server1,http://server2 STEPS=1d,1w bin/aetos-kaukasios
+BIND_ADDRESS=:8080 URLS=http://server1,http://server2 STEPS=1d,1w bin/aetos-kaukasios
 ```
